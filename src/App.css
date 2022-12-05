@@ -236,14 +236,17 @@ span{
     margin-left: 4%;
   }
   .Search {
-    width:80%;
+    width:70%;
+    display: flex;
   }
   .Search input{
-    width: 10rem;
-    height:50%; 
+    width: 15rem;
+    height:60%; 
   }
   .Search-btn{
-    padding: 10px 20px;
+    padding: 0px 12px;
+    border-radius:10px;
+    display: none;
 
   }
   .Movie-Card{
@@ -279,7 +282,7 @@ span{
   /* Detailes page */
 .Detailes{
   padding-left:.5rem;
-  font-size:1rem;
+  font-size:.8rem;
 }
 .high-deta{
   width:92%;
@@ -297,7 +300,10 @@ span{
   width:82%;
 }
 .mid-deta p{
-  padding-left:1rem;
+  padding-left:1.1rem;
+}
+p span{
+  font-size:.9rem;
 }
 
 
